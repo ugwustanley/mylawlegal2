@@ -1,0 +1,24 @@
+.chartbody{
+   height:220px;
+   object-fit: cover;
+   object-position: center;
+   margin:auto ;
+   margin-left:50px;
+   margin-right:5%;
+   margin-top:100px;
+   padding-bottom:160px
+}
+.line{
+    
+    height:3000px !important;
+    position: relative;
+}
+
+/* media query for medium and small screen size*/
+@media(max-width: 800px){
+    .chartbody{
+        margin-left:3px;
+        margin-right:3px;
+        margin-top:70px;
+    }
+}

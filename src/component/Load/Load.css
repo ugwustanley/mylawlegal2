@@ -1,0 +1,35 @@
+
+/*loading animation( made by me) */
+
+.animations{
+    margin:auto;
+    margin-top: 30px;
+    margin-left: 42%;
+    
+  }
+  .animations div{
+    display:inline-block;
+    margin:auto;
+    width:15px;
+    height:15px;
+    margin:4px;
+    border-radius: 50%;
+    background-color:#0e163db4;
+    animation-name:load;
+    animation-timing-function: ease-in-out; 
+    animation-duration:1s ;  
+    animation-delay:calc(0.1s * var(--i));
+    animation-iteration-count: infinite;
+  }
+  @keyframes load {
+    0%{
+        transform:translateY(0px) ;
+    }
+    40%{
+        transform: translateY(-10px) scale(1.2);
+    }
+    70%{
+        transform: translateY(0px);
+    }
+    
+  }

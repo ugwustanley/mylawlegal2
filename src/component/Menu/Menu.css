@@ -1,0 +1,26 @@
+.menu{
+    position:absolute;
+    top:27px;
+    right:80px;
+}
+.bar{
+    width:28px;
+    height:3px;
+    border-radius: 40px;
+    background-color:white;
+    margin-top:5px;
+}
+
+/* media query for medium and small screen size*/
+@media(max-width:800px){
+    .menu{
+        position: relative;
+        margin-top:-80px;
+        float:right;
+        right:50px;
+    }
+    .bar{
+        width:28px;
+        height:3px;
+    }
+}

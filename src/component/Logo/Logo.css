@@ -1,0 +1,19 @@
+.Logo__box{
+    width:90px;
+    height:80px;
+    margin-left:80px;
+    background-color: #fecc0a;
+}
+.Logo__box img{
+    width:100%;
+    
+}
+/* media query for medium and small screen size*/
+@media (max-width:800px){
+    .Logo__box{
+        width:80px;
+        height:80px;
+        margin-left:30px;
+        background: transparent;
+    }  
+}
